@@ -442,4 +442,15 @@ public class SocialLocalRepository: BaseLocalRepository {
                 })
             })
     }
+    
+    public func clearChallengeCache() {
+        updateCall { realm in
+            for challenge in realm.objects(RealmChallenge.self) {
+                realm.delete(challenge)
+            }
+            for membership in realm.objects(RealmChallengeMembership.self) {
+                realm.delete(membership)
+            }
+        }
+    }
 }

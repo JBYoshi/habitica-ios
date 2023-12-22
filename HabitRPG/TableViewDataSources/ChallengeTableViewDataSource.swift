@@ -67,6 +67,7 @@ class ChallengeTableViewDataSource: BaseReactiveTableViewDataSource<ChallengePro
     }
     
     func initialDataLoad() {
+        socialRepository.clearChallengeCache()
         socialRepository.retrieveChallenges(page: nextPage, memberOnly: true).observeCompleted {}
         socialRepository.retrieveChallenges(page: nextPage, memberOnly: false).observeCompleted {}
     }
@@ -163,5 +164,10 @@ class ChallengeTableViewDataSource: BaseReactiveTableViewDataSource<ChallengePro
         } else {
             return nil
         }
+    }
+    
+    @objc
+    func idForObject(at indexPath: IndexPath) -> String? {
+        return item(at: indexPath)?.id
     }
 }

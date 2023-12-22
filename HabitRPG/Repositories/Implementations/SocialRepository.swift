@@ -58,6 +58,10 @@ class SocialRepository: BaseRepository<SocialLocalRepository> {
         })
     }
     
+    func clearChallengeCache() {
+        self.localRepository.clearChallengeCache()
+    }
+    
     func retrieveChallenges(page: Int, memberOnly: Bool) -> Signal<[ChallengeProtocol]?, Never> {
         return RetrieveChallengesCall(page: page, memberOnly: memberOnly).arraySignal.on(value: {[weak self]challenges in
             guard let challenges = challenges else {
