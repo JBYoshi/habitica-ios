@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.habitrpg.habitica</string>
+		<string>group.dev.jonathanb.habitrpg.habitica</string>
 	</array>
 	<key>com.apple.security.network.client</key>
 	<true/>

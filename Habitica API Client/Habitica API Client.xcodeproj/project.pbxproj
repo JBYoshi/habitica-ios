@@ -1533,7 +1533,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Q9SMRMCNN;
+				DEVELOPMENT_TEAM = 57BBCPSX47;
 				INFOPLIST_FILE = "Habitica API ClientTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1541,7 +1541,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.habitrpg.ios.habitica.Habitica-API-ClientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jonathanb.habitrpg.ios.habitica.Habitica-API-ClientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1553,7 +1553,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Q9SMRMCNN;
+				DEVELOPMENT_TEAM = 57BBCPSX47;
 				INFOPLIST_FILE = "Habitica API ClientTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1561,7 +1561,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.habitrpg.ios.habitica.Habitica-API-ClientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jonathanb.habitrpg.ios.habitica.Habitica-API-ClientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1664,7 +1664,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Q9SMRMCNN;
+				DEVELOPMENT_TEAM = 57BBCPSX47;
 				INFOPLIST_FILE = "Habitica API ClientTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1672,7 +1672,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.habitrpg.ios.habitica.Habitica-API-ClientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jonathanb.habitrpg.ios.habitica.Habitica-API-ClientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1775,7 +1775,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Q9SMRMCNN;
+				DEVELOPMENT_TEAM = 57BBCPSX47;
 				INFOPLIST_FILE = "Habitica API ClientTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1783,7 +1783,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.habitrpg.ios.habitica.Habitica-API-ClientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jonathanb.habitrpg.ios.habitica.Habitica-API-ClientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
